@@ -10,6 +10,7 @@
   --category-icon-size: 18px;
   --font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   --font-size: 15px;
+  --font-weight: 300;
 
   --preview-placeholder-size: 21px;
   --preview-title-size: 1.1em;
@@ -194,7 +195,7 @@ a {
   position: sticky;
   z-index: 1;
   top: -1px;
-  font-weight: 500;
+  font-weight: var(--font-weight, 500);
   background-color: rgba(var(--em-rgb-background), .9);
   backdrop-filter: blur(4px);
 }
